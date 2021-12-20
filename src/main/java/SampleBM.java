@@ -55,16 +55,16 @@ public class SampleBM {
         
         
         
-        username="shubhamr";
-        accesskey="bKCQ8wHNM5QHi8m3c9vc9JecZjXeWN34SfNIEBYZywYAPoC87Z";
+       // username="shubhamr";
+       // accesskey="bKCQ8wHNM5QHi8m3c9vc9JecZjXeWN34SfNIEBYZywYAPoC87Z";
 
 
         //initiating tunnel instance
 
         t = new Tunnel();
         HashMap<String, String> options = new HashMap<String, String>();
-        options.put("user", "username");
-        options.put("key", "accesskey");
+        options.put("user", "shubhamr");
+        options.put("key", "bKCQ8wHNM5QHi8m3c9vc9JecZjXeWN34SfNIEBYZywYAPoC87Z");
         options.put("proxyHost",hostIp);
         options.put("proxyPort", portn);
         options.put("ingress-only", "--ingress-only");          //mandatory while using BM proxy
