@@ -94,7 +94,7 @@ public class SampleBM {
         capabilities.setCapability("tunnel",true);
         capabilities.setCapability("tunnelName",portn);
 
-        driver = new RemoteWebDriver(new URL("https://username:accesskey@hub.lambdatest.com/wd/hub"),capabilities);
+        driver = new RemoteWebDriver(new URL("https://"+username+":"+accesskey+"@hub.lambdatest.com/wd/hub"),capabilities);
         System.out.print("Driver------======="+driver);
     }
 
