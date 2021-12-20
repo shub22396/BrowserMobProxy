@@ -52,6 +52,11 @@ public class SampleBM {
 
 
         System.out.println(portn + " <-- BrowserMob Proxy port passed in tunnel");
+        
+        
+        
+        username="shubhamr";
+        accesskey="bKCQ8wHNM5QHi8m3c9vc9JecZjXeWN34SfNIEBYZywYAPoC87Z";
 
 
         //initiating tunnel instance
@@ -90,6 +95,7 @@ public class SampleBM {
         capabilities.setCapability("tunnelName",portn);
 
         driver = new RemoteWebDriver(new URL("https://username:accesskey@hub.lambdatest.com/wd/hub"),capabilities);
+        System.out.print("Driver------======="+driver);
     }
 
     @Test
